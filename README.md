@@ -1,5 +1,7 @@
 # PROJET BDD - Collection d'objets
 
+*Projet réalisé pour la matière Base De Données 2 du semestre 5 (3è année de licence informatique)*
+
 Ce projet vise à proposer une base de données pour la gestion de collections d'objets qui permet à un utilisateur, de répertorier les différents objets culturels qu'il possède ou a possédé (livres, films, albums de musique), de les noter/commenter et de les organiser par listes thématiques.
 
 Il utilise le langage *sqlplus* d'*Oracle*.
