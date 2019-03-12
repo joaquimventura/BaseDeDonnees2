@@ -2,24 +2,25 @@
 
 Ce projet vise à proposer une base de données pour la gestion de collections d'objets qui permet à un utilisateur, de répertorier les différents objets culturels qu'il possède ou a possédé (livres, films, albums de musique), de les noter/commenter et de les organiser par listes thématiques.
 
+Il utilise le langage *sqlplus* d'*Oracle*.
+
 ## Fichiers inclus
 ```
-tables.sql
-dropTables.sql
-data.sql
-requetes.sql
-procedures.sql
-triggers.sql
-t_triggers.sql
-index.sql
-drop_index.sql
+tables.sql  :  création des tables
+dropTables.sql  :  drop des tables
+data.sql  :  les données de test
+requetes.sql  :  les différentes requêtes demandées 
+procedures.sql  :  les différentes procédures demandées
+triggers.sql  :  les différents triggers demandés
+t_triggers.sql  :  pour tester le bon fonctionnement des triggers
+index.sql  :  création des indexs
+drop_index.sql  :  drop des indexs
 README.md
 ```
 
 ## Compilation
 
 Instructions à suivre pour compiler:
-
 ```
 Lancer sqlplus
 SQL> @tables
@@ -44,3 +45,6 @@ Objet ( _#IdUtilisateur_, IdObjet, TypeObjet, Commentaire, DateCom, DateAjoutObj
 Liste ( Nom, _#IdUtilisateur_, Descriptif, IdObjet, TypeObjet )
 
 Nouveaute ( IdUtilisateur, IdObjet, TypeObjet, DateAjout )
+
+## Auteurs
+* **Joaquim Ventura**, **Jeanne Truong**
